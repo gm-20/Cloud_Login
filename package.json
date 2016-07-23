@@ -1,0 +1,23 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "main": "auth_server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-mongo": "^1.2.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.4.2",
+    "express-session": "^1.13.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.5.1",
+    "passport": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GM",
+  "license": "ISC",
+  "description": ""
+}

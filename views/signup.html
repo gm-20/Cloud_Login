@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Signup</title>
+	<link rel="stylesheet" type= "text/css" href="../static/css/styles.css" />
+	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"-->
+	
+</head>
+<body>
+	<div>
+		<h2 class="form-group">Sign Up</h2>
+		<form method="POST" role="form">
+			<label class="form-group">Username:</label>
+			<input type="text"  name="username" class="form-control"><br>
+			<label class="form-group">Password:</label>
+			<input type="password" name="password" class="form-control" required="required"><br>
+			<label class="form-group">Email:</label>
+			<input type="email" name="email" class="form-control" required="required"><br>
+			<input type="submit" value="Register" class="btn btn-default">
+		</form>
+	</div>
+	<hr>
+	<%= msg %>
+</body>
+</html>

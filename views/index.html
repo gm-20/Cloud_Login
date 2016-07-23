@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+	<title>Portal</title>
+	<link rel="stylesheet" type= "text/css" href="../static/css/styles.css" />
+	
+</head>
+<body>
+	<div ng-controller="myController">
+		<h2>Welcome!!You are logged in as <%= username %></h2>
+		<a href="/user">Edit User</a><br><hr>
+		<a href="/logout">Logout</a>
+		<p>Place you Code here</p>
+		<hr><%= msg %>
+        <script src="angular.min.js"></script>
+		<script src="../static/js/my_app.js"></script>
+	</body>
+	</html>
