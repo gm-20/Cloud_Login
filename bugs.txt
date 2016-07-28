@@ -1,3 +1,0 @@
-1.Delete User
-2.Back button--Solved
-3.Two logins response single user.

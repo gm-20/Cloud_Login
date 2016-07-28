@@ -6,7 +6,7 @@ var MongoStore = require('connect-mongo')(session);
 var mongoose = require('mongoose');
 require('./models/users_model.js');
 //var conn = mongoose.createConnection('mongodb://localhost/myapp');
-mongoose.connect('mongodb://localhost/myapp');
+mongoose.connect('mongodb://gm:gm@ds027165.mlab.com:27165/test20');
 var app = express();
 app.engine('.html',require('ejs').__express);
 app.set('views',__dirname + '/views');
@@ -27,4 +27,5 @@ app.use(session({
 	})
 }));
 require('./routes.js')(app);
-app.listen(8080);
+var port = process.env.PORT || 8080;
+app.listen(port);

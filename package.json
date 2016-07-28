@@ -15,8 +15,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "start":"auth_server.js"  },
   "author": "GM",
   "license": "ISC",
   "description": ""
